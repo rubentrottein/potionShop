@@ -14,7 +14,13 @@ function open(potion){
             break;    
         case 2 :
             unlockPotion(2);
+            gold -= 100;
             document.getElementById("potion2").addEventListener("click",function (){start(30);});
+        break;
+        case 3 :
+            unlockPotion(3);
+            gold -= 500;
+            document.getElementById("potion3").addEventListener("click",function (){start(50);});
         break;
     }
 }
@@ -28,6 +34,9 @@ function unlockPotion(potion){
         break;
         case 2 :
             deck0.innerHTML += "<li id='potion2'><b id= 'resC'>30</b><figure><img src='img/potion2.png' alt='Max Potion'/></figure>Max Potion = <b id='res3'>0</b></li>";
+        break;
+        case 3 :
+            deck0.innerHTML += "<li id='potion3'><b id= 'resD'>50</b><figure><img src='img/ether.png' alt='Ether'/></figure>Ether = <b id='res4'>0</b></li>";
         break;
     }
 }
