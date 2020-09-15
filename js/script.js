@@ -33,10 +33,10 @@ function unlockPotion(potion){
             deck0.innerHTML += "<li id='potion1'><figure><img src='img/potion1.png' alt='potion +'/><figcaption>Potion +</figcaption><b id='res2'>0</b></figure><b id= 'resB'>20</b></li>";
         break;
         case 2 :
-            deck0.innerHTML += "<li id='potion2'><b id= 'resC'>30</b><figure><img src='img/potion2.png' alt='Max Potion'/></figure>Max Potion = <b id='res3'>0</b></li>";
+            deck0.innerHTML += "<li id='potion2'><figure><img src='img/potion2.png' alt='Max Potion'/><figcaption>Max Potion</figcaption><b id='res3'>0</b></figure><b id= 'resC'>30</b></li>";
         break;
         case 3 :
-            deck0.innerHTML += "<li id='potion3'><b id= 'resD'>50</b><figure><img src='img/ether.png' alt='Ether'/></figure>Ether = <b id='res4'>0</b></li>";
+            deck0.innerHTML += "<li id='potion3'><figure><img src='img/ether.png' alt='Ether'/><figcaption>Ether</figcaption><b id='res4'>0</b></figure><b id= 'resD'>50</b></li>";
         break;
     }
 }
