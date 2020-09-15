@@ -1,4 +1,4 @@
-
+h2{display: flex;justify-content:space-between;}
 .deck{height:12em;}
 figure{
     max-height:100%;
@@ -11,10 +11,19 @@ img{max-height: 5em;}
     width: 25%;
 }
 #status{display: flex; justify-content: space-between;height:4em;}
+.deck li div{
+    display: block;
+}
 .deck li{
     display: flex;
+    justify-content: space-between;
 }
-aside{
+.deck li:hover{
+    cursor: pointer;
+    transition: .5s;
+    transform: scale(1.1);
+}
+#shop aside{
     display: flex;
     max-height: 100%;
     overflow: hidden;
@@ -23,3 +32,16 @@ aside{
     justify-content: space-between;
 }
 aside img{height:120%;}
+#rules{display: none;}
+article{ display: block;}
+    @media (max-width: 800px){
+       .deck{
+           display: block;
+       } 
+       .deck li{
+           max-width: 95%;
+       }
+       main{
+           height:850px;
+       }
+    }

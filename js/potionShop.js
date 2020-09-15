@@ -14,16 +14,22 @@ function getGold(){
 getGold();
 function start(timeInit){
     var timeInit;
+    var potion;
     if (timeInit === 10){
         var time = timeInit;
+        potion=0;
     }
     if (timeInit === 20){
         var time0 = timeInit;
+        potion=1;
     } else if (timeInit === 30){
         var time1 = timeInit;
+        potion=2;
     } else if (timeInit === 50){
         var time2 = timeInit;
+        potion=3;
     }
+    document.getElementsByTagName("i")[potion].innerHTML = "Production en cours";
     setInterval(timer,500);
     
     function timer(){

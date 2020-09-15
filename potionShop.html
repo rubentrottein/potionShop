@@ -23,8 +23,9 @@
         </header>
         <main>
             <section>
-                <h2>Règles du jeu</h2>
-                <article>
+                <h2>Règles du jeu<button id="expander">Afficher</button></h2>
+                <article id="rules">
+                    <aside>
                     <h3>Niveau 1</h3>
                     <ul>
                         <li>Lancez la création des potions normales</li>
@@ -32,30 +33,31 @@
                         <li>Lancez la création des potions +</li>
                         <li>Grâce aux potions + vendues plus chères vous améliorez vos gains!</li>
                     </ul>
-                </article>
-                <article>
-                <h3>Niveau 2</h3>
-                    <ul>
-                        <li>Lancez la création des potions normales et des Potions +</li>
-                        <li>Quand vous avez 100 pièces, achetez l'amélioration Potions +</li>
-                        <li>Lancez la création des potions Max, puis des Ethers</li>
-                        <li>Grâce aux potions vendues plus chères vous améliorez vos gains!</li>
-                    </ul>
-                </article>
-                <article>
-                <h3>Niveau 3</h3>
-                    <ul>
-                        <li>Changez de stratégie en attendant d'avoir 90 pièces</li>
-                        <li>Quand vous avez 90 pièces, engagez l'amélioration de la production des potions normales</li>
-                        <li>Les potions normales se vendent 2x plus vite!</li>
-                        <li>Grâce aux potions vendues plus vite vous améliorez vos gains de base!</li>
-                    </ul>
+                    </aside>
+                    <aside>
+                    <h3>Niveau 2</h3>
+                        <ul>
+                            <li>Lancez la création des potions normales et des Potions +</li>
+                            <li>Quand vous avez 100 pièces, achetez l'amélioration Potions +</li>
+                            <li>Lancez la création des potions Max, puis des Ethers</li>
+                            <li>Grâce aux potions vendues plus chères vous améliorez vos gains!</li>
+                        </ul>
+                    </aside>
+                    <aside>
+                    <h3>Niveau 3</h3>
+                        <ul>
+                            <li>Changez de stratégie en attendant d'avoir 90 pièces</li>
+                            <li>Quand vous avez 90 pièces, engagez l'amélioration de la production des potions normales</li>
+                            <li>Les potions normales se vendent 2x plus vite!</li>
+                            <li>Grâce aux potions vendues plus vite vous améliorez vos gains de base!</li>
+                        </ul>
+                    </aside>
                 </article>
             </section>
-            <h2>Boutique</h2>
-            <section>
+            <h2>Boutique<button id="start" class="btn">Ouvrir Boutique</button>
+            </h2>
+            <section id="shop">
                 <article id="status">
-                    <button id="start" class="btn">Ouvrir Boutique</button>
                     <aside><img src="img/gold.png" alt="Gold"/><b id="gold"></b><p>Gold</p></aside>
                 </article>
                 <article id="controls" class="flex">
@@ -68,7 +70,7 @@
         <footer>
 
         </footer>
-        <script src="js/timer.js"></script>
+        <script src="js/potionShop.js"></script>
         <script src="js/script.js"></script>
     </body>
 </html>
