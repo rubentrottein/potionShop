@@ -1,0 +1,60 @@
+*{box-sizing: border-box;}
+#characterSelect{
+    display: flex;
+    justify-content: space-around;
+}
+#characterSelect img{
+    height: 5em;
+}
+#characterSelect figure{
+    display: flex;
+}
+table{
+    color: aliceblue;
+    text-align: center;
+    border-collapse: collapse;
+    height:100%;
+}
+th,td{
+border: 2px solid green;
+}
+main{
+    background: none;
+    width: 100%;
+    margin:2em;
+}
+article{
+    width:40%;
+    padding: 3em;
+}
+aside{
+    background: indianred;
+    height: 1em;
+}
+#ring{display: flex; justify-content: space-around;padding-top: 3em;}
+#ring img{
+    height: 10em;
+}
+#ring article{
+    background: rgba(255,255,255,.1);
+    box-shadow: skyblue 0 0 10px 5px;
+}
+#monitor{
+    width:80%; 
+    margin: 3em auto; 
+    box-shadow: seagreen 0 0 10px 5px;
+    color: lightgray;
+}
+#controls{
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+}
+#controls button{
+    width:24%;
+}
+.endGame{
+    color: steelblue;
+    font-size: 3em;
+    text-shadow: white 1px 1px 20px;
+}
