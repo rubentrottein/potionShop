@@ -55,14 +55,15 @@ nav ul li:hover{color: lightblue; transition: 1s;}
 .deck{
     list-style-type: none;
     display: flex;
+    justify-content:space-around;
 }
 .deck li{
     margin:1em;
     padding: 1em;
     background: indianred;
     box-shadow: brown 0px 0px 10px 5px;
-    width: 100%;
     text-align: center;
+    width: 100%;
 }
 .deck ul li{
     margin:.5em;

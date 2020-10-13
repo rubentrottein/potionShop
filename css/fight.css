@@ -23,6 +23,9 @@ main{
     width: 100%;
     margin:2em;
 }
+h3{background:grey; padding: .5em;}
+#hero h3{background:steelblue;}
+#foe h3{background:orangered;}
 article{
     width:40%;
     padding: 3em;
@@ -46,12 +49,15 @@ aside{
     color: lightgray;
 }
 #controls{
-    width: 100%;
+    width: 80%;
     display: none;
     justify-content: space-around;
+    margin:0 auto;
 }
 #controls button{
     width:24%;
+    margin:0;
+    padding:1em;
 }
 .endGame{
     color: steelblue;
